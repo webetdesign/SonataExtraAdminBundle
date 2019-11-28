@@ -27,10 +27,6 @@ class AddTrashEntityCompilerPass implements CompilerPassInterface
      */
     public function process(ContainerBuilder $container)
     {
-        if (!$container->hasDefinition('doctrine.orm.entity_manager')) {
-            return;
-        }
-
         $trashedEntities = array();
         foreach ($container->findTaggedServiceIds('sonata.admin') as $id => $attributes) {
 
