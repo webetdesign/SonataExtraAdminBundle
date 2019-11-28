@@ -1,5 +1,5 @@
 {
-    "name": "picoss/sonata-extra-admin-bundle",
+    "name": "webetdesign/SonataExtraAdminBundle",
     "type": "symfony-bundle",
     "description": "Sonata Extra admin features",
     "keywords": ["admin","sonata","symfony"],
